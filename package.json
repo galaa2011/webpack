@@ -1,0 +1,34 @@
+{
+  "name": "webpack",
+  "private": true,
+  "description": "Webpack share",
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "main": "",
+  "repository": "",
+  "keywords": [],
+  "author": "galaa2011",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "bundle-loader": "^0.5.4",
+    "css-loader": "^0.23.1",
+    "eslint": "^2.13.1",
+    "eslint-loader": "^1.3.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.21.0",
+    "rimraf": "^2.5.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "moment": "^2.13.0"
+  }
+}
